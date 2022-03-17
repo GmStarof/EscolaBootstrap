@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Teste1\\Teste1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Domain\\Appai.Domain.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Domain\\Appai.Domain.csproj",
+        "projectName": "Appai.Domain",
+        "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Domain\\Appai.Domain.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Repository\\Appai.Repository.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Repository\\Appai.Repository.csproj",
+        "projectName": "Appai.Repository",
+        "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Repository\\Appai.Repository.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Domain\\Appai.Domain.csproj": {
+                "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Domain\\Appai.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Service\\Appai.Service.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Service\\Appai.Service.csproj",
+        "projectName": "Appai.Service",
+        "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Service\\Appai.Service.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Domain\\Appai.Domain.csproj": {
+                "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Domain\\Appai.Domain.csproj"
+              },
+              "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Repository\\Appai.Repository.csproj": {
+                "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Repository\\Appai.Repository.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\AppaiEstudeEx\\Appai.App.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\AppaiEstudeEx\\Appai.App.csproj",
+        "projectName": "Appai.App",
+        "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\AppaiEstudeEx\\Appai.App.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Domain\\Appai.Domain.csproj": {
+                "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Domain\\Appai.Domain.csproj"
+              },
+              "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Service\\Appai.Service.csproj": {
+                "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Appai.Service\\Appai.Service.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Teste1\\Teste1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Teste1\\Teste1.csproj",
+        "projectName": "Teste1",
+        "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Teste1\\Teste1.csproj",
+        "packagesPath": "C:\\Users\\1194\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\Teste1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\1194\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\AppaiEstudeEx\\Appai.App.csproj": {
+                "projectPath": "C:\\Users\\1194\\source\\repos\\AppaiEstudeEx\\AppaiEstudeEx\\Appai.App.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

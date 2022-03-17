@@ -1,0 +1,52 @@
+﻿@model AppaiEstudeMVC.ViewsModels.AlunoListaDeMateriaViewModel
+
+@{
+    ViewBag.Title = "AdcMateria";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Adicionar Materia</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Aluno</h4>
+    <hr />
+
+    <div class="form-group">
+        Nome:@Html.DisplayFor(model => Model.NomeAluno)
+
+        @*@Html.HiddenFor(model => model.Id)*@
+    </div>
+    <div class="form-group">
+        Materia: @Html.DropDownListFor(x => x.MateriasId, @Model.Materias)
+
+        @*@Html.HiddenFor(model => model.Id)*@
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Nota, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Nota, new { htmlAttributes = new { @class = "form-control",  @type = "number", @step = "any", @min = "0", @max = "10" } })
+            @Html.ValidationMessageFor(model => model.Nota, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Salvar" class="btn btn-default" />
+        </div>
+
+    </div>
+
+</div>
+
+}
+<div>
+    @Html.ActionLink("Voltar para Lista", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

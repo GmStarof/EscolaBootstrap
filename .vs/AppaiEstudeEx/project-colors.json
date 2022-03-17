@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "825e2405-2bef-49ac-a252-debb47b941dc": {
+      "ProjectGuid": "825e2405-2bef-49ac-a252-debb47b941dc",
+      "DisplayName": "Appai.App",
+      "ColorIndex": 0
+    },
+    "84133733-d272-45a6-b954-dd29a49348a5": {
+      "ProjectGuid": "84133733-d272-45a6-b954-dd29a49348a5",
+      "DisplayName": "Appai.Repository",
+      "ColorIndex": 1
+    },
+    "db7c6ce4-44ba-4fa8-a445-fa67c02b373c": {
+      "ProjectGuid": "db7c6ce4-44ba-4fa8-a445-fa67c02b373c",
+      "DisplayName": "Appai.Domain",
+      "ColorIndex": 2
+    },
+    "4839954e-9b9e-456c-b002-1117c39791da": {
+      "ProjectGuid": "4839954e-9b9e-456c-b002-1117c39791da",
+      "DisplayName": "Appai.Service",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5106f22e-9e02-4142-8904-06545255d3b6": {
+      "ProjectGuid": "5106f22e-9e02-4142-8904-06545255d3b6",
+      "DisplayName": "Teste1",
+      "ColorIndex": 4
+    },
+    "436a7cb9-d29e-47bd-9cff-6614c688ff2e": {
+      "ProjectGuid": "436a7cb9-d29e-47bd-9cff-6614c688ff2e",
+      "DisplayName": "AppaiEstudeMVC",
+      "ColorIndex": 5
+    },
+    "2f2e163f-a315-4554-b43f-258ef9aab8f5": {
+      "ProjectGuid": "2f2e163f-a315-4554-b43f-258ef9aab8f5",
+      "DisplayName": "Appai.API",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

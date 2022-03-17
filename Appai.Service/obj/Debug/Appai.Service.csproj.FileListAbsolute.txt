@@ -1,0 +1,13 @@
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\bin\Debug\Appai.Service.dll
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\bin\Debug\Appai.Service.pdb
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\bin\Debug\Appai.Domain.dll
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\bin\Debug\Appai.Repository.dll
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\bin\Debug\Appai.Domain.pdb
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\bin\Debug\Appai.Repository.pdb
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\obj\Debug\Appai.Service.csproj.AssemblyReference.cache
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\obj\Debug\Appai.Service.csproj.CoreCompileInputs.cache
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\obj\Debug\Appai.Service.csproj.CopyComplete
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\obj\Debug\Appai.Service.dll
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\obj\Debug\Appai.Service.pdb
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\bin\Debug\Appai.Service.dll.config
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Service\bin\Debug\Appai.Repository.dll.config

@@ -1,0 +1,64 @@
+﻿@model Appai.Domain.Aluno
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Aluno</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Materia)
+        </dt>
+        
+    <span style="margin-left:  20px"  ></span>
+         @foreach (var item in Model.Materia)
+            {
+    <span style="border: 1px solid grey; padding: 5px;">
+        @Html.DisplayFor(modelItem => item.Nome)
+        |Nota:
+        @Html.DisplayFor(modelItem => item.Nota)
+    </span>
+                  
+            }
+        
+            
+            @*<dd>
+            @Html.DisplayFor(model => model.Materia)
+        </dd>*@
+    
+<dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Adicionar Materia", "AdcMateria", new { id = Model.Id }) |
+    @Html.ActionLink("Adicionar Nota", "AdcNota", new { id = Model.Id }) |
+    @Html.ActionLink("Voltar para lista", "Index")
+</p>

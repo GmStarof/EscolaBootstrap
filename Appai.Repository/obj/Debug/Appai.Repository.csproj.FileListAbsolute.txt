@@ -1,0 +1,10 @@
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Repository\bin\Debug\Appai.Repository.dll
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Repository\bin\Debug\Appai.Repository.pdb
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Repository\bin\Debug\Appai.Domain.dll
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Repository\bin\Debug\Appai.Domain.pdb
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Repository\obj\Debug\Appai.Repository.csproj.AssemblyReference.cache
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Repository\obj\Debug\Appai.Repository.csproj.CoreCompileInputs.cache
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Repository\obj\Debug\Appai.Repository.csproj.CopyComplete
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Repository\obj\Debug\Appai.Repository.dll
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Repository\obj\Debug\Appai.Repository.pdb
+C:\Users\1194\source\repos\AppaiEstudeEx\Appai.Repository\bin\Debug\Appai.Repository.dll.config
